@@ -10,6 +10,6 @@ public interface Consumer {
     /**
      * Returns the mean (aka average) of numbers consumed in the last 5 minute period.
      */
-    Float mean();
+    Double mean();
 
 }
